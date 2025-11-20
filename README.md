@@ -30,16 +30,19 @@ Include a hyperlink to the source of your dataset used for this project. Additio
 Example: 
 
 Dataset: https://docs.google.com/spreadsheets/d/1S52_kx9gkcjkJGJ50t-rD8IuJScLIvkRVwuejTyoczg/edit?usp=sharing
-- **Country** (String) - name of the country 
-- **Population** (int) - number of people in the country 
-- **CO2Emissions** (double) - carbon dioxide emission in kilotons 
+- **WeaponName** (String) - name of the weapon 
+- **Damage** (int) - Damage of the Weapon 
+- **damageType** (String) - The class of the Damage
+- **useTime** (int) - The amount of time in ticks that it takes to use the weapon again 
 
 ## UML Diagram 
 
 Put an image of your UML Diagram here. Upload the image of your UML Diagram to your repository, then use the Markdown syntax to insert your image here. Make sure your image file name is one work, otherwise it might not properly get displayed on this README. 
 
-![UML Diagram for my project](nameOfImageFileHere.png) 
+![alt text](<Opera Snapshot_2025-11-19_235105_docs.google.com.png>) 
 
 ## Description 
 
-Write a description of your project here. In your description, include as many vocab words from our class to explain your User Story, the chosen dataset and how your project addressed that users goals. If your project used the Scanner class for user input, explain how the user will interact with your project.
+In this project, we utilized 1D arrays to our user story. This being a program that can display the strongest weapon in terraria under certain categories. This is done through user input based on the category they want, and a scanner records their feedback. It uses its index effectively with the various getFile methods to browse each row, finding the best weapon in total of each array, and combining them together.
+
+This project utilizes the userStory and Scanner class, with methods in order to provide a clean console and account for the 100+ lines in the array; it faced numerous challenges along the way in the process of programming. But, the end result displays the scanner's question, allowing the user to choose between 4 weapon categories, in which the program displays the information of the Arrays of weaponNames, damage, damageType, and the useTime. 
