@@ -1,0 +1,15 @@
+Gained the data from Terraria Wiki
+https://terraria.fandom.com/wiki/List_of_weapons
+
+We implimented Quilbot, an AI to gain specific Arrays in neat, organized rows due to the website having a proper array and some elements being unavaible for website use.
+We then used google sheets and seperated the data into rows so it would be compatable with code.org
+
+Aiello helped us with the google sheet to make it more compatible with the txt file.
+
+Me (Chris) used Aiello's user interaction example for some of the code
+
+I (chris), had to use ChatGpt to correct errors and teach me a few code segments to make the program function with the txt, which resolved an issue with one of the values being unknown.
+
+last, used AI to check the rubric and see if the code has each and everything needed.
+
+I (Peter) used AI for tips on how to clean up the code to make it run smoother and remove unneccessary lines of code.
