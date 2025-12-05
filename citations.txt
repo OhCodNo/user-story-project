@@ -6,10 +6,59 @@ We then used google sheets and seperated the data into rows so it would be compa
 
 Aiello helped us with the google sheet to make it more compatible with the txt file.
 
-Me (Chris) used Aiello's user interaction example for some of the code
+Me (Chris) used Aiello's user interaction example for some of the code, specifically the scanner and how the ways of the txt.files were organized into numerous rows.
 
-I (chris), had to use ChatGpt to correct errors and teach me a few code segments to make the program function with the txt, which resolved an issue with one of the values being unknown.
+I (chris), had to use ChatGpt to correct errors and teach me a few code segments to make the program function with the txt, which resolved an issue with one of the values being unknown. 
+This comes from spelling mistakes, and a few errors where the array just wasn't functioning well. It added the -1 for max value, in which I asked "What does this (insert -1 code) do? I don't believe we learned this or 
+I just don't understand. In response, ChatGpt labled it similary to a no-argument constructor, that would update if the best weapon is found, and would display a message in the data runner if nothing was found at the end.
+
 
 last, used AI to check the rubric and see if the code has each and everything needed.
+I essentially copied and pasted the rubric to the AI including the code, to see if all the requirements were accomplished.
 
-I (Peter) used AI for tips on how to clean up the code to make it run smoother and remove unneccessary lines of code.
+
+
+I (Peter) used AI for tips on how to clean up the code to make it run smoother and remove unneccessary lines of code. 
+
+In a sense, the original array had over 500 entries. This was far too much and a good amount of them had parts of them, such as an "-" that interupted the file method.
+Peter asked ChatGpt to get rid of any arrays that had these parts. 
+In response, the array was shortened to a short 164.
+This would help the code run smoother.
+
+
+
+
+
+
+
+
+New Code: Hey, Chris here. I got rid of a lot of the AI generated text and made my own. I noticed that some of the things in the original code were changed to, entirely new pieces of code. From our toIntarray being turned into a string reader. This was definitely not what we needed.
+Hence, I scrapped the code, and loaded up a new one. 
+
+So, I changed our file readers accordingly, changed the instance variables for integers into Int. 
+I also placed the -1 for each in better understanding of its functions.
+
+I totally got rid of a lot of the unnecessary elements due to your advice saying that it makes things harder. 
+
+Furthermore, with the changes, it seems the code is much shorter and non complex.
+
+However, due to not learning some of these in class, I have to say now that the console's scanner is case-sensitive now. 
+
+
+As for AI, it was used in providing alternatives.
+Here's a question I asked it, 
+"Take a look at this: (Pasted the code) How can I change this to not include the (included the code you marked we didn't need), and change these instance variables (gave the variables of damage and useTime)?
+
+In response, like you said, we don't even need it. So i changed the file readers into Int when it comes to our integers. 
+
+
+Furthemore, when I ran the new software after checking the rubric, there was over 20 errors. Much to my relief, they were mostly spelling mistakes apart from a few errors with our array gathering methods.
+Hence, (Since I couldn't find a few of them), I asked Ai,
+"So I have an error message: (I copy and pasted the console's error reason). Can you tell me what to fix so it functions properly?"
+
+In response, ChatGpt provided me with a list of spelling mistakes, and a simple way to fix my error with the file methods. 
+
+Another thing is that I changed the arrays a bit due to peter swapping damage values with useTimes in his.
+
+Mr. Aiello helped with the code by adding the correct File reading methods. This changed the length reading into integer reading methods. This helps because it removes a good chunk of code that just made the program more difficult.
+
